@@ -66,6 +66,10 @@ nav{
 }
 
 /* banner style */
+.banner{
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+    padding-top: 20px;
+}
 .banner-row{
     max-width: var(--dft-max-width);
     margin: auto;
@@ -144,6 +148,7 @@ nav{
     max-width: var(--dft-max-width);
     margin: auto;
     text-align: center;
+    padding-top: 120px;
 }
 .online-game-title{
     color: #0B0223;
@@ -246,7 +251,54 @@ nav{
 .play-instantly-last-img{
     text-align: left;
     margin: -290px 0 0 -60px;
-    
+
+}
+
+/* play games */
+.play-games-row{
+    max-width: var(--dft-max-width);
+    margin: auto;
+    display: flex;
+    padding: 120px 0;
+}
+.play-games-col{
+    width: 50%;
+}
+.play-games-col-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.play-games-description{
+    width: 353px;
+}
+.play-games-description h3{
+    text-align: right;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 60px;
+    margin-bottom: 24px;
+}
+.play-games-description h3 span{
+    background: linear-gradient(180deg, #F948B2 70%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.play-games-description p{
+    color: #534C64;
+    text-align: right;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.play-games-col-2{
+    text-align: right;
+}
+.play-games-last-img{
+    text-align: left;
+    margin: -290px 0 0 -60px;
+
 }
 
 /* multi games */
@@ -342,4 +394,15 @@ footer{
 .copyright{
     text-align: center;
     margin-top: 28px;
+}
+.foot-logo-container, .foot-list ul li, .foot-icon, .foot-service ul li{
+    cursor: pointer;
+}
+
+
+/* media query */
+@media screen and (max-width:1440px) {
+    .online-game-img-container:hover{
+        outline: none;
+    }
 }
