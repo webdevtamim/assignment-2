@@ -257,12 +257,16 @@ nav{
     flex-wrap: wrap;
     gap: 28px;
     justify-content: center;
+    padding: 120px 0;
 }
 .multi-container{
-    border: 1px solid;
+    border: 1px solid #fff;
     width: 16.7%;
     padding: 10px;
     border-radius: 50px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
 }
 .multi-container h6{
     color: #0B0223;
@@ -271,10 +275,71 @@ nav{
 }
 .multi-container:hover{
     border-color: #FF42A5;
+    cursor: pointer;
 }
 .multi-container h6:hover{
     background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+
+/* footer */
+footer{
+    background: #0B0223;
+    padding: 120px 0;
+}
+.foot-container{
+    max-width: var(--dft-max-width);
+    margin: auto;
+}
+.foot-logo-container{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 63px;
+}
+.foot-logo{
+    height: 40px;
+}
+.foot-title{
+    font-size: 45px;
+    font-weight: 700;
+    color: #fff;
+}
+.foot-title span{
+    color: #FF42A5;
+}
+.foot-list ul{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    list-style-type: none;
+}
+.foot-list ul li{
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 600;
+}
+.foot-icon{
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    margin: 55px 0 65px;
+}
+.foot-service ul{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    list-style-type: none;
+}
+.foot-service ul li, .copyright{
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 16px;
+    font-weight: 500;
+}
+.copyright{
+    text-align: center;
+    margin-top: 28px;
 }
