@@ -406,3 +406,102 @@ footer{
         outline: none;
     }
 }
+
+/* mobile device */
+@media screen and (max-width:768px) {
+    /* navbar */
+    .navbar{
+        flex-direction: column;
+    }
+    .logo{
+        justify-content: center;
+        margin-bottom: 60px;
+    }
+    .navbar .list ul{
+        flex-direction: column;
+    }
+    .navbar .list ul{
+        row-gap: 40px;
+    }
+    .banner-row{
+        flex-direction: column-reverse;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .banner-col{
+        width: 100%;
+    }
+    .immediate{
+        padding-top: 100px;
+        max-width: 450px;
+        margin: auto;
+    }
+    /* online-game */
+    .online-game-row{
+        flex-direction: column;
+        row-gap: 50px;
+    }
+    .online-game-img-container{
+        height: auto;
+        text-align: center;
+    }
+    .online-game-img{
+        width: 50%;
+        height: 50vh;
+    }
+    .online-game-img-container:hover .play-btn{
+        display: none;
+    }
+    .online-game-row p{
+        width: 50%;
+        margin: auto;
+        text-align: center;
+    }
+    /* play game */
+    .play-instantly-row{
+        flex-direction: column;
+    }
+    .play-instantly-col{
+        width: 100%;
+    }
+    .play-instantly-description{
+        width: 478px;
+    }
+    .play-instantly-description h3{
+        text-align: center;
+        padding: 0 50px;
+    }
+    .play-instantly-description p{
+        text-align: center;
+    }
+    .play-instantly-col-2{
+        padding: 70px 10px 0;
+    }
+    .play-instantly-first-img{
+        width: 85%;
+    }
+    .play-instantly-last-img{
+        margin: -290px 0 0 -10px;
+    }
+
+    /* multi games */
+    .multi-games{
+    max-width: var(--dft-max-width);
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0;
+    justify-content: center;
+    }
+    .multi-container{
+    width: 30%;
+    gap: 7px;
+    }
+    .multi-container h6{
+        font-size: 16px;
+        font-weight: 600;
+    }
+    .multi-container img{
+        width: 15%;
+    }
+}
