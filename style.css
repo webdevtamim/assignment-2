@@ -154,7 +154,7 @@ nav{
 /* we are gamer */
 .gamer{
     z-index: 15;
-    margin-top: -50px;
+    margin-top: -40px;
     background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
 }
 .gamer-row{
