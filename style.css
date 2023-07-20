@@ -361,6 +361,50 @@ nav{
 
 }
 
+/* we are gamer */
+.careers{
+    background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+}
+.careers-row{
+    max-width: var(--dft-max-width);
+    margin: auto;
+    display: flex;
+    padding-left: 10px;
+}
+.careers-col-1,.careers-col-2{
+    width: 50%;
+}
+.careers-col-1 img{
+    width: 100%;
+    margin-bottom: -5px;
+}
+.careers-col-2{
+    display: flex;
+    align-items: center;
+}
+.careers-col-2 h3{
+    font-size: 48px;
+    font-weight: 700;
+    color: #fff;
+}
+.careers-col-2 p{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    padding: 32px 0 24px;
+}
+.careers-col-2 button{
+    color: #FF42A5;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-radius: 48px;
+    background: #fff;
+    padding: 21px 40px;
+    border: none;
+}
+
 /* multi games */
 .multi-games{
     max-width: var(--dft-max-width);
