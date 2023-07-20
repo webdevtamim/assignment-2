@@ -200,7 +200,12 @@ nav{
     border-radius: 48px;
     background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
     padding: 21px 40px;
-    border: none;
+    border: 2px solid #fff;
+}
+.gamer-col-2 button:hover{
+    border-color: #FF42A5;
+    color: #FF42A5;
+    background: #fff;
 }
 
 /* online game section */
