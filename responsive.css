@@ -1,0 +1,119 @@
+
+/* media query */
+@media screen and (max-width:1440px) {
+    .online-game-img-container:hover{
+        outline: none;
+    }
+}
+/* tablet device */
+@media screen and (max-width:992px) {
+    
+}
+
+/* mobile device */
+@media screen and (max-width:768px) {
+    /* navbar */
+    .navbar{
+        flex-direction: column;
+    }
+    .logo{
+        justify-content: center;
+        margin-bottom: 60px;
+    }
+    .navbar .list ul{
+        flex-direction: column;
+    }
+    .navbar .list ul{
+        row-gap: 40px;
+    }
+    .banner-row{
+        flex-direction: column-reverse;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .banner-col{
+        width: 100%;
+    }
+    .immediate{
+        padding-top: 100px;
+        max-width: 450px;
+        margin: auto;
+    }
+    /* online-game */
+    .online-game-row{
+        flex-direction: column;
+        row-gap: 50px;
+    }
+    .online-game-img-container{
+        height: auto;
+        text-align: center;
+    }
+    .online-game-img{
+        width: 50%;
+        height: 50vh;
+    }
+    .online-game-img-container:hover .play-btn{
+        display: none;
+    }
+    .online-game-row p{
+        width: 50%;
+        margin: auto;
+        text-align: center;
+    }
+
+    /* play instantly */
+    .play-instantly-row{
+        flex-direction: column;
+    }
+    .play-instantly-col{
+        width: 100%;
+    }
+    .play-instantly-description{
+        width: 470px;
+    }
+    .play-instantly-description h3{
+        text-align: center;
+        padding: 0 30px 70px;
+    }
+    .play-instantly-description p{
+        text-align: center;
+        padding-bottom:  100px;
+    }
+    .play-instantly-first-img{
+        width: 84%;
+    }
+    .play-instantly-last-img{
+        margin-left: -10px;
+    }
+    
+    /* multi games */
+    .multi-games{
+        gap: 15px;
+    }
+    .multi-container{
+        gap: 8px;
+    }
+    .multi-container img{
+        width: 25%;
+    }
+    .multi-container h6{
+        font-size: 16px;
+        font-weight: 500;
+    }
+
+    /* footer */
+    .foot-container{
+        max-width: 370px;
+        margin: auto;
+    }
+    .foot-icon{
+        padding: 55px 40px 65px;
+    }
+    .foot-service ul{
+        justify-content: space-between;
+    }
+    .copyright{
+        padding: 0 65px;
+    }
+    
+}
