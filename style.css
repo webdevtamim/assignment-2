@@ -269,7 +269,7 @@ nav{
     max-width: var(--dft-max-width);
     margin: auto;
     display: flex;
-    padding: 120px 0;
+    padding: 120px 10px;
 }
 .play-games-col{
     width: 50%;
@@ -304,6 +304,9 @@ nav{
 }
 .play-games-col-2{
     text-align: right;
+}
+.play-games-first-img{
+    width: 100%;
 }
 .play-games-last-img{
     text-align: left;
