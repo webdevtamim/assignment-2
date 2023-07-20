@@ -163,7 +163,7 @@
     }
     .online-game-img-container{
         margin: auto;
-        height: 600px;
+        height: 500px;
         width: 80%;
     }
     .online-game-img-container:hover{
@@ -177,6 +177,7 @@
     }
     .online-game-row p{
         text-align: center;
+        padding: 24px 100px;
     }
     
     /* multi games responsive */

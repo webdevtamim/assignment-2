@@ -12,13 +12,11 @@
 }
 
 /* header */
-header{
-    padding: 0 10px;
-}
 /* navbar style */
 nav{
     background: #FFF;
     box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+    padding: 0 10px;
 }
 .navbar{
     max-width: var(--dft-max-width);
@@ -73,6 +71,7 @@ nav{
     max-width: var(--dft-max-width);
     margin: auto;
     display: flex;
+    padding: 0 10px;
 }
 .banner-col{
     width: 50%;
@@ -280,10 +279,10 @@ nav{
     align-items: center;
 }
 .play-games-description{
-    width: 353px;
+    width: 450px;
 }
 .play-games-description h3{
-    text-align: right;
+    text-align: left;
     font-size: 48px;
     font-weight: 700;
     line-height: 60px;
@@ -297,20 +296,20 @@ nav{
 }
 .play-games-description p{
     color: #534C64;
-    text-align: right;
+    text-align: left;
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
 }
 .play-games-col-2{
-    text-align: right;
+    text-align: left;
 }
 .play-games-first-img{
     width: 100%;
 }
 .play-games-last-img{
-    text-align: left;
-    margin: -290px 0 0 -60px;
+    text-align: right;
+    margin: -290px -60px 0 0;
 
 }
 
