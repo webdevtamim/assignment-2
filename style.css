@@ -222,7 +222,7 @@ nav{
     max-width: var(--dft-max-width);
     margin: auto;
     display: flex;
-    padding: 120px 10px;
+    padding: 120px 10px 0;
 }
 .play-instantly-col{
     width: 50%;
@@ -279,7 +279,7 @@ nav{
     align-items: center;
 }
 .play-games-description{
-    width: 450px;
+    width: 470px;
 }
 .play-games-description h3{
     text-align: left;
